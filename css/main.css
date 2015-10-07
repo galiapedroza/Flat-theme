@@ -13,3 +13,8 @@
 .clearfix:after {
   clear: both;
 }
+/*SECCION:WE-FACTS + FOOTER*/
+.we-facts{
+	background-color:#34495e;
+	color:#fff;
+}
