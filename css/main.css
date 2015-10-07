@@ -13,13 +13,12 @@
 .clearfix:after {
   clear: both;
 }
-<<<<<<< HEAD
+
 /*SECCION:WE-FACTS + FOOTER*/
 .we-facts{
 	background-color:#34495e;
 	color:#fff;
 }
-=======
 
 /*Inicio de código*/
 .container{
@@ -84,4 +83,3 @@ a.active {
 .black-bg {
     background: #34495e;
 }
->>>>>>> cbea8583d4657c8cfcbde0f2e428c8e27ef0df73
