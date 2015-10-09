@@ -25,6 +25,10 @@ body > section{
 	padding:5%;
 }
 /*Inicio de código*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
 .container{
 	width: 100%;
 	height: 100%;
@@ -109,41 +113,100 @@ a.active {
 }
 
 /*Lates-project*/
-
-
-
-/*
-/*Hero-img
- .hero-img{
- 	background:url("../images/slider/bg1.jpg")no-repeat;
- 	background-size:cover; 
- }
-/*SECCION:WE-FACTS + FOOTER
-.we-facts{
-	background-color:#34495e;
-	color:#fff;
-	padding:4% 0%;
+.img-portafolio{
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 20px 10px 0;
 }
-.we-facts ul li{
+.img-portafolio h5{
+	font-weight: 700;
+	padding: 10px 0;
+	font-size: 14px;
+	margin: 0;
+}
+
+/*What our clients say*/
+.titulo{
+	font-size: 18px;
+}
+.sub-titulo{
+	font-size: 12px;
+}
+.bloque{
+	border-left: 5px solid #eee;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+/*Footer*/
+.black-bg p,li,a{
+	color: #bdc3c7;
+}
+.company{
+	padding-left: 0;
+}
+.company li{
 	list-style: none;
 }
-footer{
-	background-color:#2c3e50;
-	padding:1%;
+.company a:hover{
+	color: #E74C3C;
+	text-decoration: none;
+	-webkit-transition: 500ms;
+	transition: 500ms;
+}
+.media-body p{
+	margin-bottom: 5px;
+}
+.media-body a:hover{
+	color: #E74C3C;
+	text-decoration: none;
+	-webkit-transition: 500ms;
+	transition: 500ms;
+}
+span{
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 0px;
 }
 
-ul.arrow li::before {
-  content: "\f105";
+/*Footer bottom*/
+.marine-bg ul li a:hover{
+	color: #E74C3C;
+	text-decoration: none;
+	-webkit-transition: 500ms;
+	transition: 500ms;
 }
-*/
+.copy{
+	font-size: 12px;
+	padding-top: 30px;
+	color: #bdc3c7;
+}
+nav ul li{
+  display: inline-block;
+  padding: 29px 10px 0; 
+}
 
 /*Utilidades*/
 .black-bg {
     background: #34495e;
+    color: #fff;
 }
 .green-bg{
 	background: #2ECC71;
 	color: #fff;
+}
+.beige-bg{
+	background-color: #F5F5F5;
+}
+.red-bg{
+	background-color: #E74C3C;
+	color: #fff;
+}
+.marine-bg{
+	background-color: #2c3e50;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .p-tb{
 	padding-top: 4%;
@@ -151,6 +214,9 @@ ul.arrow li::before {
 }
 .text-blue{
 	color: #2c3e50;
+}
+.pd{
+	padding: 50px 0;
 }
 
 
