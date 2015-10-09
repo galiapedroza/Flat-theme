@@ -133,6 +133,7 @@ a.active {
 }
 .sub-titulo{
 	font-size: 12px;
+	color: #CECECE;
 }
 .bloque{
 	border-left: 5px solid #eee;
@@ -217,11 +218,24 @@ nav ul li{
 	padding-top: 4%;
 	padding-bottom: 3%;
 }
+.pd-t{
+	padding-top: 4%;
+}
 .text-blue{
 	color: #2c3e50;
 }
+.text-withe{
+	color: #fff;
+}
 .pd{
 	padding: 50px 0;
+}
+.mg-0{
+	margin: 0;
+	padding-top: 3%;
+}
+.pd-b{
+	padding-bottom: 3%;
 }
 
 /*-----SERVICES-----*/
@@ -242,6 +256,79 @@ nav ul li{
 }
 .c-claro li a:hover{
 	text-decoration: none;
+}
+.sub-titulo2{
+	font-size: 12px;
+	color: #999;
+}
+
+/*Blog*/
+.img-blog{
+	background: #fff;
+}
+.img{
+
+	border-radius: 7px 7px 0 0;
+}
+.icon-blog li{
+	display: inline-block;
+	color: #999;
+	margin-right: 10px;
+	font-size: 12px;
+	padding-bottom: 2%;
+}
+.pd-blog{
+	padding: 0 3% 3%;
+}
+.img-blog a h3:hover{
+	color: #E74C3C;
+	text-decoration: none;
+}
+.img-blog a:hover{
+	text-decoration: none;
+}
+.pagination li a:hover{
+	background: #34495e;
+	color: #fff;
+}
+.pagination .active a,
+.pagination .active a:hover{
+	background: #34495e;
+	color: #fff;
+}
+.pagination li a{
+	color: #34495e;
+	border: none;
+}
+
+/*Blog Categories*/
+.category li{
+	color: #2c3e50;
+}
+.category a{
+	color: #2c3e50;
+}
+.category {
+	padding-left: 0;
+}
+.category li{
+	list-style: none;
+}
+.category a:hover{
+	color: #E74C3C;
+	text-decoration: none;
+	-webkit-transition: 500ms;
+	transition: 500ms;
+}
+
+ul.botones {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.botones li {
+  display: inline-block;
+  margin: 0 0 2px 0;
 }
 
 
