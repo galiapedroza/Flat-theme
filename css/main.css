@@ -219,6 +219,25 @@ nav ul li{
 	padding: 50px 0;
 }
 
+/*Cabecera*/
+.cabecera{
+	margin-top: 67px;
+	padding: 5% 8% 3%;
+}
+.c-claro,li{
+	color: #A9EAC5;
+}
+.c-claro li a{
+	color: #fff;
+}
+.cabecera h1{
+	font-weight: 300;
+	margin: 0px;
+}
+.c-claro li a:hover{
+	text-decoration: none;
+}
+
 
 /*CSS-PORTFOLIO*/
 .portfolio {
