@@ -84,18 +84,24 @@ a.active {
 /*-----HOME-----*/
 /*Hero imagen*/
 .hero-img{
-	margin-top: 67px;
-	background-image:url("../images/slider/bg1.jpg");
-	background-size:cover;
-	background-repeat: no-repeat;
+	background-image: url("../images/slider/bg1.jpg");
+	background-size: cover;
 	background-position: 50%;
-	padding-top: 19%;
-	padding-bottom: 16.6%;
 	color: #fff;
+	height: 600px;
+	margin-top: 67px;
 }
 .content h2{
 	font-size: 35px;
+	padding-top: 10%;
 }
+.content p{
+	padding-bottom: 5%;
+}
+.content {
+	text-align: left;
+}
+
 
 /*Redes Sociales green-bg*/
 .icon-redes{
@@ -237,6 +243,17 @@ nav ul li{
 .pd-b{
 	padding-bottom: 3%;
 }
+.pd-g{
+	padding: 3%;
+}
+.mg-tb{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.mg-t{
+	margin-top: 67px;
+}
+
 
 /*-----SERVICES-----*/
 /*Cabecera*/
@@ -320,7 +337,6 @@ nav ul li{
 	-webkit-transition: 500ms;
 	transition: 500ms;
 }
-
 ul.botones {
   list-style: none;
   padding: 0;
@@ -332,21 +348,33 @@ ul.botones li {
 }
 
 
-/*CSS-PORTFOLIO*/
-.portfolio {
-	color: white;
-    padding: 10% 8% 3%;
-    background-color: #2ecc71;
+.principal{
+	font-size: 21px;
+	font-weight: 100;
 }
-.portfolio h1{
-	margin: 0;
-  	font-weight: 300;
+.avatar{
+	padding: 4px;
+	background: #fff;
 }
-.portfolio li a{
-	text-decoration: none;
-	list-style: none;
-	color: white;
 
+
+
+/*Portfokio*/
+.portfolio {
+	background: #fff;
+    padding: 4%;
+    border: 1px solid #eee;
+}
+.portfolio p{
+	margin-top: 2%;
+	margin-bottom: 0;
+	font-size: 15px;
+}
+.modal-content{
+	border-radius: 0px;
+}
+.envio .modal-dialog{
+	width: 400px;
 }
 
 /*ABOUT US CSS*/
