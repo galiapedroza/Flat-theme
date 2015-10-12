@@ -134,9 +134,13 @@ a.active {
 	-webkit-transition: 500ms;
 	transition: 500ms;
 }
+.marketing{
+	margin: 5% 0;
+}
 
 /*Lates-project*/
 .img-portafolio{
+	margin: 4% 0px;
 	background: #fff;
 	border: 1px solid #eee;
 	padding: 20px 10px 0;
